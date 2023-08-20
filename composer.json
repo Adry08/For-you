@@ -1,6 +1,6 @@
 
 {
-    "name": "php",
+    "name": "test/php",
     "description": "Site",
     "license": "MIT",
     "require": {
