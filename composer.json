@@ -1,7 +1,7 @@
 
 {
-    "name": "votre/nom-de-package",
-    "description": "Description de votre package",
+    "name": "php",
+    "description": "Site",
     "license": "MIT",
     "require": {
         "intervention/image": "^2.7",
