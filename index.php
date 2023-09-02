@@ -22,13 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $data = "./data/jsonLoger.json";
 
-  if (is_dir($data)) {
+  if (isset($data)) {
 
     $datajson = file_get_contents($data);
 
-    $loger = json_decode($datajson, JSON_PRETTY_PRINT);
+    // echo $datajson;
+
+    $loger =  json_decode($datajson, JSON_PRETTY_PRINT);
   } else {
-    $loger = [];
+    $logers = [];
+
+
   }
 
 
